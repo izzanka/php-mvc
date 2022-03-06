@@ -1,0 +1,21 @@
+{
+    "name": "izzanka/mvc-php",
+    "description": "mvc-php",
+    "type": "project",
+    "require": {
+        "php": ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\PHP\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MVC\\PHP\\" : "test"
+        }
+    }
+}
